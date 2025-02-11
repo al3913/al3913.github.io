@@ -20,16 +20,33 @@ body {
 }
 
 .card {
+    width: 300px;
+    height: 500px;
     background: white;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 2.25s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .heart {
     font-size: 50px;
     animation: pulse 1.5s infinite;
+}
+
+.heart img {
+    width: 250px;
+    height: auto;
 }
 
 button {
