@@ -112,22 +112,3 @@ button:hover {
     50% { transform: scale(1.2); }
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    #card {
-        width: 90%;
-        height: auto;
-    }
-
-    #card-front, #card-back {
-        padding: 15px;
-    }
-
-    #hvdText {
-        font-size: 1.5rem;
-    }
-
-    .heart img {
-        width: 150px;
-    }
-}
