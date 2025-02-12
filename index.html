@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine's Day Card</title>
+    <title>To Emily</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="card" id="card">
-        <div class="heart"><img id="pigImage" src="images/cute-pig-huge-love-heart-cartoon-vector-icon-illustration-animal-isolated_772770-75-removebg-preview-removebg-preview.png"></div>
-        <h1>Happy Valentine's Day!</h1>
-        <p>Click to open me!</p>
-        <div id="surpriseMessage" class="hidden">
-            <p>You are amazing! 💖</p>
+    <div id="card">
+        <div class="card-inner">
+            <div class="card" id="card-front">
+                <div class="heart">
+                    <img id="pigImage" src="images/cute-pig-huge-love-heart-cartoon-vector-icon-illustration-animal-isolated_772770-75-removebg-preview-removebg-preview.png">
+                </div>
+                <h1 id="hvdText">Happy Valentine's Day!</h1>
+                <p>Click me!</p>
+            </div>
+            <div id="card-back" class="card">
+                <div id="surpriseMessage">
+                    <p>You are amazing! 💖</p>
+                </div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
