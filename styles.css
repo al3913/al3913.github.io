@@ -160,7 +160,7 @@ body {
 }
 
 .fadein {
-    animation: fadeIn 1s forwards;
+    animation: fadeIn 1s forwards 0.5s;
 }
 
 @keyframes fadeIn {
@@ -214,7 +214,7 @@ button {
 }
 
 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.1) ;
 }
 
 /* Animations */
@@ -294,9 +294,9 @@ button:hover {
     -o-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    -moz-animation: glowing 2.5s ease-in-out infinite;
-    -webkit-animation: glowing 2.5s ease-in-out infinite;
-    animation: glowing 2.5s ease-in-out infinite;
+    -moz-animation: glowing 2.5s ease-in-out infinite 0.5s;
+    -webkit-animation: glowing 2.5s ease-in-out infinite 0.5s;
+    animation: glowing 2.5s ease-in-out infinite 0.5s;
 }
 .container .rose-petals > div {
     background: #d52d58;
@@ -330,9 +330,9 @@ button:hover {
     transform-origin: bottom left;
 }
 .container .rose-petals > div:nth-child(2) {
-    -moz-animation: openRose2 3s ease-in-out;
-    -webkit-animation: openRose2 3s ease-in-out;
-    animation: openRose2 3s ease-in-out;
+    -moz-animation: openRose2 3s ease-in-out 0.5s;
+    -webkit-animation: openRose2 3s ease-in-out 0.5s;
+    animation: openRose2 3s ease-in-out 0.5s;
     -moz-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -345,9 +345,9 @@ button:hover {
     animation-delay: 2s;
 }
 .container .rose-petals > div:nth-child(3) {
-    -moz-animation: openRose3 3s ease-in-out;
-    -webkit-animation: openRose3 3s ease-in-out;
-    animation: openRose3 3s ease-in-out;
+    -moz-animation: openRose3 3s ease-in-out 0.5s;
+    -webkit-animation: openRose3 3s ease-in-out 0.5s;
+    animation: openRose3 3s ease-in-out 0.5s;
     -moz-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -360,9 +360,9 @@ button:hover {
     animation-delay: 2s;
 }
 .container .rose-petals > div:nth-child(4) {
-    -moz-animation: openRose4 3s ease-in-out;
-    -webkit-animation: openRose4 3s ease-in-out;
-    animation: openRose4 3s ease-in-out;
+    -moz-animation: openRose4 3s ease-in-out 0.5s;
+    -webkit-animation: openRose4 3s ease-in-out 0.5s;
+    animation: openRose4 3s ease-in-out 0.5s;
     -moz-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -375,9 +375,9 @@ button:hover {
     animation-delay: 2s;
 }
 .container .rose-petals > div:nth-child(5) {
-    -moz-animation: openRose5 3s ease-in-out;
-    -webkit-animation: openRose5 3s ease-in-out;
-    animation: openRose5 3s ease-in-out;
+    -moz-animation: openRose5 3s ease-in-out 0.5s;
+    -webkit-animation: openRose5 3s ease-in-out 0.5s;
+    animation: openRose5 3s ease-in-out 0.5s;
     -moz-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -390,9 +390,9 @@ button:hover {
     animation-delay: 2s;
 }
 .container .rose-petals > div:nth-child(6) {
-    -moz-animation: openRose6 3s ease-in-out;
-    -webkit-animation: openRose6 3s ease-in-out;
-    animation: openRose6 3s ease-in-out;
+    -moz-animation: openRose6 3s ease-in-out 0.5s;
+    -webkit-animation: openRose6 3s ease-in-out 0.5s;
+    animation: openRose6 3s ease-in-out 0.5s;
     -moz-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -405,9 +405,9 @@ button:hover {
     animation-delay: 2s;
 }
 .container .rose-petals > div:nth-child(7) {
-    -moz-animation: openRose7 3s ease-in-out;
-    -webkit-animation: openRose7 3s ease-in-out;
-    animation: openRose7 3s ease-in-out;
+    -moz-animation: openRose7 3s ease-in-out 0.5s;
+    -webkit-animation: openRose7 3s ease-in-out 0.5s;
+    animation: openRose7 3s ease-in-out 0.5s;
     -moz-animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -500,9 +500,9 @@ button:hover {
     box-shadow: 0px 0px 12px 2px #ff4e85;
     bottom: 0;
     opacity: 0;
-    -moz-animation: sparkle 4s ease-in-out infinite;
-    -webkit-animation: sparkle 4s ease-in-out infinite;
-    animation: sparkle 4s ease-in-out infinite;
+    -moz-animation: sparkle 4s ease-in-out infinite 0.5s;
+    -webkit-animation: sparkle 4s ease-in-out infinite 0.5s;
+    animation: sparkle 4s ease-in-out infinite 0.5s;
 }
 .container .sparkles > div:nth-child(1) {
     left: 60px;
