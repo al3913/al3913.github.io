@@ -83,6 +83,24 @@ body {
     padding: 20px;
 }
 
+#imageGallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.imageGalleryImage {
+    width: 100px;
+    height: 100px;
+    margin: 0 0px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Front of the card (rotates to open) */
 #card-front {
     position: absolute;
@@ -130,13 +148,13 @@ body {
     font-family: 'Chivo', sans-serif;
     font-weight: 600;
     font-size: 1.8rem;
-    color: #d33;
-    margin-top: 10px;
+    color: rgb(228, 59, 59);
+    margin-top: 20px;
 }
 
 p {
     font-size: 1.2rem;
-    color: #444;
+    color: #000000;
 }
 
 /* Button (Optional) */
