@@ -72,6 +72,12 @@ body {
     }
 }
 
+.card {
+    backface-visibility: hidden;  /* Hide the back when facing away */
+    -webkit-backface-visibility: hidden; /* for older Safari/Chrome on iOS */
+    transform-style: preserve-3d; /* Ensure child elements are transformed in 3D */
+  }
+
 /* Back of the card (stationary) */
 #card-back {
     position: absolute;
