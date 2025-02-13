@@ -12,9 +12,9 @@ document.getElementById("card").addEventListener("click", function() {
             children[i].classList.toggle("hidden");
         }
 
-        const children2 = back.children;
-        for (let i = 0; i < children2.length; i++) {
-            children2[i].classList.toggle("fadein");
-        }
+        // const children2 = back.children;
+        // for (let i = 0; i < children2.length; i++) {
+        //     children2[i].classList.toggle("fadein");
+        // }
     }, 500); // Adjust the delay time to match the animation duration
 });
