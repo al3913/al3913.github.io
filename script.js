@@ -1,6 +1,7 @@
 document.getElementById("card").addEventListener("click", function() {
     const front = document.getElementById("card-front");
-    
+    const back = document.getElementById("card-back");
+
     // Toggle open/close effect
     front.classList.toggle("opened");
 
@@ -9,6 +10,11 @@ document.getElementById("card").addEventListener("click", function() {
         const children = front.children;
         for (let i = 0; i < children.length; i++) {
             children[i].classList.toggle("hidden");
+        }
+
+        const children2 = back.children;
+        for (let i = 0; i < children2.length; i++) {
+            children2[i].classList.toggle("fadein");
         }
     }, 500); // Adjust the delay time to match the animation duration
 });
