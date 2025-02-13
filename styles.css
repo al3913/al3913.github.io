@@ -228,7 +228,7 @@ button:hover {
 
 #rose {
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 1s;
   }
   .show-rose #rose {
     opacity: 1;
