@@ -90,6 +90,9 @@ body {
     background: pink;
     z-index: 1; /* Stays behind */
     padding: 20px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
 }
 
 #surpriseMessage {
