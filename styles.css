@@ -225,6 +225,7 @@ button:hover {
 
 /* Rose */
 
+
 #rose {
     opacity: 0;
     transition: opacity 0.5s;
@@ -239,7 +240,7 @@ button:hover {
     height: 300px;
     position: relative; /* Change to relative */
     margin-top: 5px; /* Add some space above the rose */
-    transform: scale(0.6);
+    transform: translateZ(0) scale(0.6);
     transform-style: preserve-3d;
 }
 .container div {
