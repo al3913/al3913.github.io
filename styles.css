@@ -32,7 +32,14 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto; /* Center the card horizontally */
+    transform: translateZ(0);       /* or rotateZ(0), etc. */
+    will-change: transform;
 }
+
+/* #rose {
+    transform: translateZ(0);
+    will-change: transform;
+  } */
 
 .card-inner {
     width: 100%;
@@ -43,6 +50,7 @@ body {
     transform-style: preserve-3d;
     transition: transform 1s ease-in-out;
 }
+
 
 
 /* Responsive adjustments for mobile devices */
@@ -223,6 +231,8 @@ button:hover {
     position: relative; /* Change to relative */
     margin-top: 5px; /* Add some space above the rose */
     transform: scale(0.6);
+    transform-style: preserve-3d;
+    will-change: transform;
 }
 .container div {
     position: absolute;
