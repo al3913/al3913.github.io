@@ -225,6 +225,15 @@ button:hover {
 
 /* Rose */
 
+#rose {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .show-rose #rose {
+    opacity: 1;
+  }
+  
+
 .container {
     width: 100px;
     height: 300px;
@@ -232,7 +241,6 @@ button:hover {
     margin-top: 5px; /* Add some space above the rose */
     transform: scale(0.6);
     transform-style: preserve-3d;
-    will-change: transform;
 }
 .container div {
     position: absolute;

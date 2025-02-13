@@ -11,7 +11,7 @@ document.getElementById("card").addEventListener("click", function() {
         for (let i = 0; i < children.length; i++) {
             children[i].classList.toggle("hidden");
         }
-
+        document.getElementById("card-back").classList.add("show-rose");
         // const children2 = back.children;
         // for (let i = 0; i < children2.length; i++) {
         //     children2[i].classList.toggle("fadein");
